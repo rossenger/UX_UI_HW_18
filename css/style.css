@@ -891,6 +891,16 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolioLink {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
 #skillsContainer {
