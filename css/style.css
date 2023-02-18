@@ -854,6 +854,7 @@ footer {
     padding-top: 30px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 60px;
 }
 
     #aboutMeDescription p {
@@ -906,7 +907,7 @@ footer {
 #skillsContainer {
     display: flex;
     justify-content: space-around;
-    padding: 50px 50px 50px 50px;
+    padding: 0px 50px 50px 50px;
 }
 
 #skillsTitleContainer {
