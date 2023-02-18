@@ -795,6 +795,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding-top: 80px;
+        margin: 0 auto;
     }
 
     .goalAssistantCard {
@@ -804,6 +805,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding-top: 80px;
+        margin: 0 auto;
     }
 
     .trvlCard {
@@ -813,6 +815,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding-top: 80px;
+        margin: 0 auto;
     }
 
     .npoImages {
