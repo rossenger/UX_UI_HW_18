@@ -854,7 +854,6 @@ footer {
     padding-top: 30px;
     padding-left: 60px;
     padding-right: 60px;
-    height: auto;
 }
 
     #aboutMeDescription p {
@@ -891,10 +890,10 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
 
 #portfolioLink {
