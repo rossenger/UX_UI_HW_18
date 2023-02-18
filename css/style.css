@@ -910,6 +910,13 @@ footer {
     padding: 50px 50px 50px 50px;
 }
 
+#skillsTitleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
 #toolsContainer {
     display: flex;
     justify-content: space-between;
