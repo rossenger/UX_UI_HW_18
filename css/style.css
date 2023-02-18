@@ -747,10 +747,18 @@ footer {
 
     .heroTitles {
         width: 348.5px;
-        height: 75px;
-        padding-bottom: 35px;
-        padding-right: 2px;
-        transform: translateY(20px);
+        height: 75px; 
+    }
+
+    .titleDescription {
+        transform: translateY(-80px);
+    }
+
+    .heroDescriptionContainer {
+        width: 289px;
+        text-align: center;
+        padding-bottom: 32px;
+        margin: 0 auto;
     }
 
     .npoCard {
