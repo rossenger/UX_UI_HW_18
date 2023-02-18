@@ -112,6 +112,7 @@ header {
     width: 554px;
     text-align: center;
     padding-bottom: 32px;
+    margin: 0 auto;
 }
 
 .heroDescriptionContainer h2 {
@@ -319,7 +320,7 @@ header {
 }
 
 #aboutMeDescription .aboutMeParagraphBold {
-    max-width: 460px;
+    max-width: 520px;
     font-family: 'Elza';
     font-style: italic;
     font-weight: 500;
@@ -485,12 +486,18 @@ header {
     height: 177px;
 }
 
+#developmentIcon {
+    width: 234.45px;
+    height: 178.75px;
+}
+
 
 footer {
     background-color: #414042;
     height: 120px;
     width: 100%;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .linkedInLogo {
@@ -602,16 +609,18 @@ footer {
     }
 
     .heroTitles {
-        width: 348.5px;
-        height: 70px;
+        width: 463.5px;
+        height: 90px;
         padding-bottom: 35px;
         padding-right: 2px;
+        transform: translateY(20px);
     }
 
     .heroDescriptionContainer {
         width: 289px;
         text-align: center;
         padding-bottom: 110px;
+        margin: 0 auto;
     }
 
     .heroDescriptionContainer h2 {
@@ -735,5 +744,96 @@ footer {
     .navbarContainer {
         display: none;
     }
+
+    .heroTitles {
+        width: 348.5px;
+        height: 75px;
+        padding-bottom: 35px;
+        padding-right: 2px;
+        transform: translateY(20px);
+    }
+
+    .npoCard {
+        grid-area: npoCard;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .npoImages {
+        width: 355px;
+        height: 168px;
+    }
+
+    #aboutMePicture {
+    width: 328px;
+    background-image: url(../images/about_me_picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 18px;
+    background-position: top;
+    }
+
+    .aboutMeContainer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+    #aboutMeDescription p {
+    max-width: 338px;
+    font-family: 'Elza';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 133%;
+    color: #FFFFFF;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+
+    
+    }
+
+    #aboutMeDescription .aboutMeParagraphBold {
+    max-width: 338px;
+    font-family: 'Elza';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 133%;
+    color: #FFFFFF;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+#graphicDesignPortfolioContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#skillsContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px 50px 50px;
+}
+
+#toolsContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 100px 50px;
+}
+
 
 }
