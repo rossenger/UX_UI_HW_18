@@ -16,6 +16,8 @@ header {
     
 }
 
+
+
 .logoContainer {
     background-color: #414042;
     height: 139px;
@@ -83,6 +85,10 @@ header {
     text-decoration: underline;
     text-decoration-thickness: 5px;
 }
+
+
+
+
 
 
 .heroContainer {
@@ -893,7 +899,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     height: 40px;
-    padding-top: 160px;
+    padding-top: 100px;
 }
 
 
@@ -908,14 +914,14 @@ footer {
 #skillsContainer {
     display: flex;
     justify-content: space-around;
-    padding: 50px 50px 50px 50px;
+    padding: 0px 50px 50px 50px;
 }
 
 #skillsTitleContainer {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 #toolsContainer {
