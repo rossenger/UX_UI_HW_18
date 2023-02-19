@@ -893,6 +893,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     height: 40px;
+    padding-top: 160px;
 }
 
 
@@ -907,14 +908,14 @@ footer {
 #skillsContainer {
     display: flex;
     justify-content: space-around;
-    padding: 0px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
 }
 
 #skillsTitleContainer {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 #toolsContainer {
