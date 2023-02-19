@@ -897,6 +897,10 @@ footer {
     margin-top: 100px;
 }
 
+button #graphicDesignPortfolio {
+    padding-top: 100px;
+}
+
 #portfolioLink {
     margin: 0 auto;
     display: flex;
